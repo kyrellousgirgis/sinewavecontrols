@@ -29,8 +29,8 @@ const Home = () => {
           />
         </div>
         <div className="my-5 col-5 m-auto" style={{ border: "1px solid " }} />
-        <div className="my-5">
-          <h2 className="mb-2">Customers </h2>
+        <div className="my-5" style={{ paddingTop: 100 }}>
+          <h2 className=" mt-5">Customers </h2>
           <CarouselSlider
             items={[
               { text: "MGMResorts", image: MGMResorts },

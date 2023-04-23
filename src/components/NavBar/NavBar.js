@@ -17,6 +17,7 @@ function NavScrollExample() {
           alt="logo"
           className="img-fluid"
           style={{ width: 100, height: 70 }}
+          // onClick={() => {}}
         />
 
         <Image
