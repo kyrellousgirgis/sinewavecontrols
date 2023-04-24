@@ -1,0 +1,31 @@
+[debug] [2023-04-24T00:04:50.103Z] ----------------------------------------------------------------------
+[debug] [2023-04-24T00:04:50.105Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2023-04-24T00:04:50.105Z] CLI Version:   11.28.0
+[debug] [2023-04-24T00:04:50.105Z] Platform:      darwin
+[debug] [2023-04-24T00:04:50.105Z] Node Version:  v14.18.0
+[debug] [2023-04-24T00:04:50.109Z] Time:          Mon Apr 24 2023 02:04:50 GMT+0200 (Eastern European Standard Time)
+[debug] [2023-04-24T00:04:50.110Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-24T00:04:50.171Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-24T00:04:50.171Z] > authorizing via signed-in user (kyrellousgirgis@gmail.com)
+[debug] [2023-04-24T00:04:50.171Z] [iam] checking project sinewavecontrols-d680b for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-24T00:04:50.172Z] > refreshing access token with scopes: []
+[debug] [2023-04-24T00:04:50.174Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-24T00:04:50.174Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-24T00:04:50.470Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-24T00:04:50.470Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-24T00:04:50.517Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/sinewavecontrols-d680b:testIamPermissions [none]
+[debug] [2023-04-24T00:04:50.517Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/sinewavecontrols-d680b:testIamPermissions x-goog-quota-user=projects/sinewavecontrols-d680b
+[debug] [2023-04-24T00:04:50.517Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/sinewavecontrols-d680b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-04-24T00:04:51.375Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/sinewavecontrols-d680b:testIamPermissions 200
+[debug] [2023-04-24T00:04:51.375Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/sinewavecontrols-d680b:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-04-24T00:04:51.376Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sinewavecontrols-d680b [none]
+[debug] [2023-04-24T00:04:51.804Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sinewavecontrols-d680b 200
+[debug] [2023-04-24T00:04:51.804Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sinewavecontrols-d680b {"projectId":"sinewavecontrols-d680b","projectNumber":"191139880752","displayName":"sinewavecontrols","name":"projects/sinewavecontrols-d680b","resources":{"hostingSite":"sinewavecontrols-d680b"},"state":"ACTIVE","etag":"1_a221fcb9-b523-46e3-90e4-dad3c4c78bd2"}
+[info] 
+[info] === Deploying to 'sinewavecontrols-d680b'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-04-24T00:04:51.807Z] Specified "public" directory "build" does not exist; Deploy to Hosting site "sinewavecontrols-d680b" may fail or be empty.
+[debug] [2023-04-24T00:04:51.808Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/sinewavecontrols-d680b/versions [none]
+[debug] [2023-04-24T00:04:51.808Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/sinewavecontrols-d680b/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
