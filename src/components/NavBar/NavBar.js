@@ -12,16 +12,17 @@ function NavScrollExample() {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <img
+        <Image
           src={logo}
           alt="logo"
-          className="img-fluid"
-          style={{ width: 100, height: 70 }}
+          className="img-fluid col-lg-1 col-md-1 col-2"
+
+          // style={{ width: 100, height: 70 }}
           // onClick={() => {}}
         />
 
         <Image
-          className="col-5 m-auto d-lg-none mx-5 d-block"
+          className="col-3 m-lg-auto d-lg-none mx-lg-5 d-block img-fluid"
           src={sinewave}
           alt="sinewavecontrols"
         />
@@ -39,9 +40,9 @@ function NavScrollExample() {
 
             <Nav.Link href="/ContactUs">Contact us</Nav.Link>
           </Nav>
-          <div className="d-flex justify-content-center align-items-center">
+          <div className="d-flex col-2 justify-content-center align-items-center">
             <Image
-              className="col-5 col-lg-2 d-lg-block d-none"
+              className="col-10 col-lg-4 d-lg-block d-none"
               src={emergency}
               alt="emergency"
             />
