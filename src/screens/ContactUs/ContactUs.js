@@ -24,7 +24,7 @@ const ContactUs = () => {
                 <p>Henderson, NV 89052</p>
                 <p>Phone: +1 (818) 298-3338</p>
                 <p>Email: Office@sinewavecontrols.com</p>
-                <p>Hours: Monday-Friday 8am-5pm</p>
+                <p>Hours: Monday-Friday 8 AM - 4:30 PM</p>
                 {/* <div></div> */}
                 {/* </Col> */}
                 {/* <Col md={6}>
