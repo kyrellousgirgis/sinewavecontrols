@@ -20,13 +20,13 @@ const ContactUs = () => {
               <Row>
                 {/* <Col md={6}> */}
                 <h2>Contact Us</h2>
-                <a href="https://www.google.com/maps/place/St+Rose+Executive+Suites+and+Virtual+Offices/@36.0409761,-115.1670156,12z/data=!3m1!5s0x80c8cf37ca0d4c8f:0x6318b9b6c5d522!4m6!3m5!1s0x80c8cf80b6477859:0x6e3b7a9eaa2d881b!8m2!3d36.0084286!4d-115.1111868!16s%2Fg%2F11fj2dbsf1">
+                <p>
                   2831 St Rose Pkwy #200
-                </a>
+                </p>
                 <p>Henderson, NV 89052</p>
-                <p>Phone: (702) 955- 6624</p>
+                <p>Phone: +1 (818) 298-3338</p>
                 <p>Email: Office@sinewavecontrols.com</p>
-                <p>Hours: Monday-Friday 8am-5pm</p>
+                <p>Hours: Monday-Friday 8 AM - 4:30 PM</p>
                 {/* <div></div> */}
                 {/* </Col> */}
                 {/* <Col md={6}>
