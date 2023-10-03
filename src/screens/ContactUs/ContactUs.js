@@ -22,7 +22,7 @@ const ContactUs = () => {
                 <h2>Contact Us</h2>
                 <p>2831 St Rose Pkwy #200</p>
                 <p>Henderson, NV 89052</p>
-                <p>Phone: +1 (702) 589-4833</p>
+                <p>Phone: +1 (722) 589-4833</p>
                 <p>Email: Office@sinewavecontrols.com</p>
                 <p>Hours: Monday-Friday 8 AM - 4:30 PM</p>
                 {/* <div></div> */}
